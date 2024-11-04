@@ -22,11 +22,6 @@ Sub フォントの変更3()
 End Sub
 
 Sub 集計()
-'
-' 集計 Macro
-'
-
-'
     Range("B8").Select
     ActiveWorkbook.Worksheets("記録の練習2").Sort.SortFields.Clear
     ActiveWorkbook.Worksheets("記録の練習2").Sort.SortFields.Add2 Key:=Range("C9:C30") _

@@ -14,3 +14,10 @@ End Sub
 Sub 印刷プレビュー()
     Worksheets("上期").PrintPreview
 End Sub
+
+Sub シート追加()
+    Worksheets.Add
+    sheet_name = InputBox("新規シート名を入力してください", "シート名入力")
+    ActiveSheet.Name = sheet_name
+End Sub
+

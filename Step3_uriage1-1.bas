@@ -21,3 +21,8 @@ Sub シート追加()
     ActiveSheet.Name = sheet_name
 End Sub
 
+Sub シート削除()
+    ActiveSheet.Delete
+End Sub
+
+

@@ -10,3 +10,7 @@ End Sub
 Sub メニューへ()
     Worksheets("メニュー").Select
 End Sub
+
+Sub 印刷プレビュー()
+    Worksheets("上期").PrintPreview
+End Sub

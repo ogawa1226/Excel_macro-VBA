@@ -25,4 +25,7 @@ Sub ƒV[ƒgíœ()
     ActiveSheet.Delete
 End Sub
 
+Sub Ôü‚ğˆø‚­()
+    Selection.BorderAround xlDouble, , , vbRed
+End Sub
 

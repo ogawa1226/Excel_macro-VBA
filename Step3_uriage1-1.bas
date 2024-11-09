@@ -36,3 +36,7 @@ End Sub
 Sub ƒƒS”ñ•\¦()
     ActiveSheet.Shapes("ƒƒS").Visible = False
 End Sub
+
+Sub ƒƒS•\¦()
+    ActiveSheet.Shapes("ƒƒS").Visible = True
+End Sub

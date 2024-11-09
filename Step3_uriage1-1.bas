@@ -33,3 +33,6 @@ Sub Œrü‚ğŒ³‚É–ß‚·()
     Selection.BorderAround xlContinuous, , , vbBlack
 End Sub
 
+Sub ƒƒS”ñ•\¦()
+    ActiveSheet.Shapes("ƒƒS").Visible = False
+End Sub

@@ -40,3 +40,8 @@ End Sub
 Sub ƒƒS•\¦()
     ActiveSheet.Shapes("ƒƒS").Visible = True
 End Sub
+
+Sub ƒZƒ‹‘I‘ğ1()
+    Worksheets("ãŠú").Select
+    Range("A1").Select
+End Sub

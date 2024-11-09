@@ -29,3 +29,7 @@ Sub Ôü‚ğˆø‚­()
     Selection.BorderAround xlDouble, , , vbRed
 End Sub
 
+Sub Œrü‚ğŒ³‚É–ß‚·()
+    Selection.BorderAround xlContinuous, , , vbBlack
+End Sub
+

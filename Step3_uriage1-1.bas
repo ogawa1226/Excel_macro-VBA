@@ -45,3 +45,9 @@ Sub セル選択1()
     Worksheets("上期").Select
     Range("A1").Select
 End Sub
+
+Sub セル選択2()
+    Range("B5").Select
+    Selection.End(xlDown).Select
+    ActiveCell.Offset(1, 0).Select
+End Sub

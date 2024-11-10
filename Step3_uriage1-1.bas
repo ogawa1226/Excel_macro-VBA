@@ -51,3 +51,7 @@ Sub セル選択2()
     Selection.End(xlDown).Select
     ActiveCell.Offset(1, 0).Select
 End Sub
+
+Sub 全セルに色を設定()
+    Worksheets("メニュー").Cells.Interior.Color = RGB(0, 32, 96)
+End Sub

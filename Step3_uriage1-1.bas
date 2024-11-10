@@ -55,3 +55,11 @@ End Sub
 Sub 全セルに色を設定()
     Worksheets("メニュー").Cells.Interior.Color = RGB(0, 32, 96)
 End Sub
+
+Sub 連続するセルに色を設定()
+    Range("B5").Select
+    ActiveCell.CurrentRegion.Select
+    Selection.Interior.Color = RGB(204, 255, 255)
+    Selection.Range(Cells(1, 1), Cells(1, 5)).Interior.Color = RGB(204, 255, 153)
+End Sub
+

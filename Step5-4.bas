@@ -28,3 +28,18 @@ Sub shiken2()
     End If
     
 End Sub
+
+Sub shiken3()
+    Dim tensuu As Integer
+    
+    tensuu = Range("C24").Value
+    
+    If tensuu >= 80 Then
+        MsgBox "‡Ši"
+    ElseIf tensuu >= 60 Then
+        MsgBox "’Ç"
+    Else
+        MsgBox "•s‡Ši"
+    End If
+    
+End Sub
